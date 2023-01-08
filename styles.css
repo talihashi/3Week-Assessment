@@ -1,0 +1,67 @@
+body {
+  background: #ddd;
+  margin: 1rem;
+  padding: 1rem;
+  max-width: 500px;
+  margin: 2rem auto;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+nav {
+	border-bottom: 2px solid orange;
+}
+
+ol {
+	padding-left: 0;
+}
+
+.crumb {
+	margin-right: 2em;
+	display: inline;
+}
+
+a {
+	color: orange;
+}
+
+a:visited {
+	color: crimson;
+}
+
+
+input {
+	display: block;
+}
+
+img {
+	max-width: 300px;
+}
+
+h1 {
+	text-align: center;
+}
+
+#flex-container {
+	display: flex;
+}
+
+#skills, #goals {
+	flex: 1;
+}
+
+#skills {
+	margin-top: 20px;
+}
+
+.yellowBtn {
+	background-color: yellow;
+	width: 250px;
+	height: 30px;
+	border-radius: 8px;
+}
+
+#buttons {
+	display: flex;
+	margin-top: 20px;
+}
+
